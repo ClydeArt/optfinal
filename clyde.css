@@ -24,11 +24,25 @@ h1{
     color: black;
 
 }
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
 .luh{
     color: rgb(1, 2, 3);
 }   
 .luh2{
-    color: aliceblue;
+    color: rgb(7, 11, 14);
 }
 
 .pic{
@@ -37,6 +51,10 @@ h1{
    align-items: center;
    background-color: #f3f6f7;
    padding: 0;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
 }
 .pic1{
     height: 80%;
@@ -146,7 +164,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-  background: #051818;
+  background: #657070;
   padding: 20px;
   border-radius: 10px;
 }
@@ -218,13 +236,31 @@ h2{
 }
     
 .limpangog div img {
-    width: 70%;
+    margin: 0;
+    width: 90%;
     height: 60%;
  }
+ button{
+    height: 2rem;
+    width: 6rem;
+ }
+ button:hover{
+    background-color: rgb(159, 206, 190);
+    border: none;
+ }
+ .katulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
  
- 
-    
+.piktyur{
+    display: none;
+}
 
+.piktyur.show{
+    display: block;
+}
    
 
 
